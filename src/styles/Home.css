@@ -1,0 +1,53 @@
+.banner {
+  height: 100px;
+  line-height: 100px;
+
+  text-align: center;
+  vertical-align: middle;
+
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s 
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  filter: brightness(50%);
+}
+
+.banner .slogan {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  vertical-align: middle;
+
+  font-size: 2rem;
+  color: white;
+}
+
+.banner .try-button {
+  position: absolute;
+  top: 100%;
+  left: 25%;
+
+  width: 50%;
+  margin: 0 auto;
+
+  vertical-align: middle;
+
+  color: white;
+  font-size: 2rem;
+  background-color: #F38181;
+  border-radius: 25px;
+}
+
+.banner .try-button:hover {
+  background-color: #DE7474;
+}

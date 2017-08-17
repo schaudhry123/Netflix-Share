@@ -1,0 +1,88 @@
+.hide {
+  display: none;
+}
+
+.navbar-nav {
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+}
+
+.navbar-header {
+  max-width: 50%;
+}
+
+.nav-item {
+  display: inline-block;
+  vertical-align: middle;
+
+  padding: 0 3rem;
+
+  font-weight: 500;
+
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.nav-item:hover {
+  color: #333333;
+}
+
+.nav-link {
+  height: 100%;
+  padding: 0rem 0.5rem !important;
+}
+
+.button {
+  background-color: #F38181;
+  border-radius: 20px;
+}
+
+.button:hover {
+  background-color: #DE7474;
+}
+
+.nav-link a:hover, a:link, a:visited, a:hover, a:active, a:focus {
+  text-decoration: none;
+}
+
+a {
+  color: #333333 !important;
+  text-decoration: none;
+}
+
+.login .text {
+  color: #FECE20;
+
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.login .text:hover {
+  color: #D4AC1B;
+}
+
+.login .secondary {
+  color: #45E3C6;
+
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.login .secondary:hover {
+  color: #38BCA4;
+}
+
+.login .divider {
+  color: #333333;
+}
+
+.navbar-brand {
+
+}

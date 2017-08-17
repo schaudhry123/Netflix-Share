@@ -1,0 +1,27 @@
+.tv-box {
+  min-height: 600px;
+  margin-top: 5%;
+}
+
+.tv {
+  position: absolute;
+  width: 93%;
+  height: 93%;
+  border: none;
+}
+
+.collapseHeader {
+  float: right;
+  border-radius: 20px;
+  background-color: #45E3C6;
+  padding: 10px;
+
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.collapseHeader:hover {
+  background-color: #38BCA4;
+}

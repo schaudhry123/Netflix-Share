@@ -1,0 +1,21 @@
+.header-component {
+  min-height: 40px;
+  line-height: 100%;
+
+  padding: .7rem;
+}
+
+.header-title {
+  font-size: 1.5rem !important;
+}
+
+.header-icon {
+  max-width: 15%;
+  height: auto;
+  display: inline-block !important;
+  margin: 0;
+}
+
+.header-text {
+  display: inline;
+}
